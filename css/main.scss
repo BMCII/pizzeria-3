@@ -1,0 +1,127 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: Gill sans, Arial, sans-serif;
+$base-font-size:   18px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #232524;
+$background-color: #f5f3f4;
+$brand-color:      #26a848;
+$brand-color-2:    #f09b31;
+$brand-color-3:    #f3293f;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    900px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+
+
+.order_button {
+  background: #f09b31;
+  background-image: -webkit-linear-gradient(top, #f09b31, #f3293f);
+  background-image: -moz-linear-gradient(top, #f09b31, #f3293f);
+  background-image: -ms-linear-gradient(top, #f09b31, #f3293f);
+  background-image: -o-linear-gradient(top, #f09b31, #f3293f);
+  background-image: linear-gradient(to bottom, #f09b31, #f3293f);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-family: "gill sans";
+  color: #f5f3f4;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  float: right;
+  margin: 15px 0 0 0;
+}
+
+.order_button:hover {
+  background: #f3293f;
+  background-image: -webkit-linear-gradient(top, #f3293f, #f09b31);
+  background-image: -moz-linear-gradient(top, #f3293f, #f09b31);
+  background-image: -ms-linear-gradient(top, #f3293f, #f09b31);
+  background-image: -o-linear-gradient(top, #f3293f, #f09b31);
+  background-image: linear-gradient(to bottom, #f3293f, #f09b31);
+  text-decoration: none;
+}
+
+.site-title{
+  margin: 20px 20px 0 70px;
+}
+
+.wrapper{
+  .site-title{
+    margin: 70px 20px 0 0;
+  }
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
