@@ -4,7 +4,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
 
   Pizzeria Valdiano is an authentic pizzeria that creates a neighborhood New York-style feel. Customers are greeted with a "Buon Giorno" from a friendly server behind the counter. There is a cozy, family-friendly atmosphere that is commonplace in Southern Italy.
-baseurl: "/pizzeria-3/" # the subpath of your site, e.g. /blog/
+baseurl: "/pizzeria-3" # the subpath of your site, e.g. /blog/
 url: "http://pizzeriavaldiano.com/" # the base hostname & protocol for your site
 twitter_username: ValdianoPizza
 facebook_username:  PizzeriaValdiano
