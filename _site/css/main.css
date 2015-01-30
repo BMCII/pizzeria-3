@@ -456,13 +456,17 @@ pre {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  font-family: "gill sans";
+  font-family: "gill sans bold";
   color: #f5f3f4;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  text-align: center;
   float: right;
-  margin: 15px 0 0 0; }
+  margin: 15px 0 0 0;
+  width: 100px;
+  box-shadow: 0 0 10px #888888;
+  border: 1px solid #141414; }
 
 .order_button:hover {
   background: #f3293f;
@@ -485,7 +489,9 @@ pre {
   overflow: hidden;
   width: 100%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  box-shadow: 0 0 10px #888888;
+  border: 1px solid #141414; }
 
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -506,3 +512,14 @@ pre {
   float: left;
   width: 100%;
   border: 0; }
+
+.menu {
+  box-shadow: 0 0 10px #888888;
+  border: 1px solid #141414;
+  margin: 10px; }
+
+p {
+  font-family: Garamond, serif; }
+
+h2 {
+  margin: 40px 0 0 0; }

@@ -3,12 +3,12 @@
   <channel>
     <title>Pizzeria Valdiano</title>
     <description>
-Pizzeria Valdiano is an authentic pizzeria that creates a neighborhood New York-style feel. Customers are greeted with a &quot;Buon Giorno&quot; from a friendly server behind the counter. There is a cozy, family-friendly atmosphere that is commonplace in Southern Italy.
+Pizzeria Valdiano is an authentic pizzeria that creates a neighborhood New York-style feel with a family-friendly atmosphere that is commonplace in Southern Italy.
 </description>
-    <link>http://pizzeriavaldiano.com//pizzeria//</link>
-    <atom:link href="http://pizzeriavaldiano.com//pizzeria//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Jan 2015 17:39:36 -0500</pubDate>
-    <lastBuildDate>Thu, 29 Jan 2015 17:39:36 -0500</lastBuildDate>
+    <link>http://pizzeriavaldiano.com//pizzeria-3/</link>
+    <atom:link href="http://pizzeriavaldiano.com//pizzeria-3/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 29 Jan 2015 23:04:05 -0500</pubDate>
+    <lastBuildDate>Thu, 29 Jan 2015 23:04:05 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -31,8 +31,8 @@ Pizzeria Valdiano is an authentic pizzeria that creates a neighborhood New York-
 
 </description>
         <pubDate>Sat, 24 Jan 2015 04:35:37 -0500</pubDate>
-        <link>http://pizzeriavaldiano.com//pizzeria//jekyll/update/2015/01/24/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://pizzeriavaldiano.com//pizzeria//jekyll/update/2015/01/24/welcome-to-jekyll.html</guid>
+        <link>http://pizzeriavaldiano.com//pizzeria-3/jekyll/update/2015/01/24/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://pizzeriavaldiano.com//pizzeria-3/jekyll/update/2015/01/24/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

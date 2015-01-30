@@ -1,11 +1,36 @@
 ---
 layout: page
-title: contact
+title: Contact
 permalink: /contact/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<p>
+Lakeside Village
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+1610 Town Center Drive
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Lakeland, FL 33803
+
+863-686-3730
+</p>
+
+
+<p>
+Waterford Lakes Town Center
+
+421 N.Alafaya Trail
+
+Orlando, FL 32828
+
+407-249-0131
+</p>
+
+
+<p>
+Winter Park
+
+510 N. Orlando Ave Site 103
+
+Winter Park, FL 32789
+407-628-5333
+</p>
