@@ -8,5 +8,8 @@
 //alert("testing 1,2,3");
 
 $(function() {
- $(".rslides").responsiveSlides();
+ $(".rslides").responsiveSlides({
+  timeout: 3000,
+  speed: 800
+ });
 });

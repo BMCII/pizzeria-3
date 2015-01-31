@@ -4,7 +4,7 @@ title: Locations
 permalink: /locations/
 ---
 
-
+<div class="location">
 <h2>Lakeside Village</h2>
 
 <p>
@@ -12,20 +12,33 @@ permalink: /locations/
 Lakeland, FL 33803
 </p>
 
-<h3>Hours of Operation</h3>
 
-<p>
-   Monday - Thursday
-   11:am - 10:00pm
-    <br>
-   Friday - Saturday
-   11:00am - 11:00pm
-    <br>
-   Sunday
-   Noon - 10:00pm</p>
-<p>
 
-<a class="order_button" href="https://www.grubhub.com/lakeland-fl/pizzeria-valdiano-town-center-dr/?showSmallSearchWidget=Y">Order Now</a>
+
+<table class="tg">
+  <tr>
+    <th class="tg-031e">Hours of Operation</th>
+    <th class="tg-031e"></th>
+  </tr>
+  <tr>
+    <td class="tg-031e">Monday - Thursday</td>
+    <td class="tg-031e">11:00am - 10:00pm</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Friday - Saturday</td>
+    <td class="tg-031e">11:00am - 11:00pm</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Sunday</td>
+    <td class="tg-031e">Noon - 10:00pm</td>
+  </tr>
+</table>
+
+
+<a class="order_button direct" href="https://www.grubhub.com/lakeland-fl/pizzeria-valdiano-town-center-dr/?showSmallSearchWidget=Y">Lakeside</a>
+</div>
+
+<div class="location">
 
 <h2>Waterford Lakes Town Center</h2>
 
@@ -34,21 +47,30 @@ Lakeland, FL 33803
 Orlando, FL 32828
 </p>
 
-<h3>Hours of Operation</h3>
 
-<p>
-   Monday - Thursday
-   11:am - 10:00pm
-   <br>
-   Friday - Saturday
-   11:00am - 11:00pm
-   <br>
-   Sunday
-   Noon - 10:00pm
-</p>
+<table class="tg">
+  <tr>
+    <th class="tg-031e">Hours of Operation</th>
+    <th class="tg-031e"></th>
+  </tr>
+  <tr>
+    <td class="tg-031e">Monday - Thursday</td>
+    <td class="tg-031e">11:00am - 10:00pm</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Friday - Saturday</td>
+    <td class="tg-031e">11:00am - 11:00pm</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Sunday</td>
+    <td class="tg-031e">Noon - 10:00pm</td>
+  </tr>
+</table>
 
-<a class="order_button" href="https://www.grubhub.com/orlando/pizzeria-valdiano-421-n-alafaya-trl-orlando/?showSmallSearchWidget=Y">Order Now</a>
+<a class="order_button direct" href="https://www.grubhub.com/orlando/pizzeria-valdiano-421-n-alafaya-trl-orlando/?showSmallSearchWidget=Y">Waterford</a>
+</div>
 
+<div class="location">
 <h2>Winter Park</h2>
 
 <p>
@@ -56,17 +78,26 @@ Orlando, FL 32828
 Winter Park, FL 32789
 </p>
 
-<h3>Hours of Operation</h3>
 
-<p>
-   Monday - Thursday
-   11:am - 10:00pm
-   <br>
-   Friday - Saturday
-   11:00am - 11:00pm
-   <br>
-   Sunday
-   Noon - 10:00pm
-</p>
+<table class="tg">
+  <tr>
+    <th class="tg-031e">Hours of Operation</th>
+    <th class="tg-031e"></th>
+  </tr>
+  <tr>
+    <td class="tg-031e">Monday - Thursday</td>
+    <td class="tg-031e">11:00am - 10:00pm</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Friday - Saturday</td>
+    <td class="tg-031e">11:00am - 11:00pm</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Sunday</td>
+    <td class="tg-031e">Noon - 10:00pm</td>
+  </tr>
+</table>
 
-<a class="order_button" href="https://www.grubhub.com/orlando/pizzeria-valdiano-winter-park/?showSmallSearchWidget=Y">Order Now</a>
+<a class="order_button direct" href="https://www.grubhub
+.com/orlando/pizzeria-valdiano-winter-park/?showSmallSearchWidget=Y">Winter Park</a>
+</div>

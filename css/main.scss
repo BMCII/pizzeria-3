@@ -67,26 +67,27 @@ $on-laptop:        800px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   font-family: "gill sans bold";
-  color: #f5f3f4;
+  color: $text-color;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   text-align: center;
-  float: right;
+  float:right;
   margin: 15px 0 0 0;
   width: 100px;
-  box-shadow: 0 0 10px #888888;
+  box-shadow: 0 0 10px #888;
   border: 1px solid #141414;
+  transition-duration: .2s;
 }
 
 .order_button:hover {
-  background: #f3293f;
-  background-image: -webkit-linear-gradient(top, #f3293f, #f09b31);
-  background-image: -moz-linear-gradient(top, #f3293f, #f09b31);
-  background-image: -ms-linear-gradient(top, #f3293f, #f09b31);
-  background-image: -o-linear-gradient(top, #f3293f, #f09b31);
-  background-image: linear-gradient(to bottom, #f3293f, #f09b31);
+  transform:scale(1.05,1.05);
+  box-shadow: 0 0 20px #888;
   text-decoration: none;
+}
+
+.order_button:active{
+
 }
 
 .site-title{
@@ -147,6 +148,25 @@ p{
 
 h2{
   margin: 40px 0 0 0;
+}
+
+.location{
+//  border: 1px solid #000000;
+  width:80%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.direct{
+//  float: none;
+  position: relative;
+  bottom: 60px;
+  right:40px;
+  margin: 0;
+}
+
+td{
+
 }
 
 
