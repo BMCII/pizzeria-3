@@ -4,17 +4,28 @@
 //======== media queries ===========//
 
 @mixin desktop {
-  @media (min-width: 960px) {
+  @media (min-width: 800px) {
+    @content;
+  }
+}
+
+@mixin pad {
+  @media (min-width: 400px) and (max-width: 800px) {
     @content;
   }
 }
 
 @mixin mobile {
-  @media (min-width: 300px) and (max-width: 959px) {
+  @media (min-width: 300px) and (max-width: 399px) {
     @content;
   }
 }
 
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
 
 //============= font ===============//
 
@@ -55,54 +66,59 @@
 //============ button ==============//
 
 @mixin button() {
-  background: #3498db;
-  color: #ffffff;
+  background: #f09b31;
+  color: $text-color;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   display: block;
-  @include gradient(#3498db, #2980b9);
-  @include border-radius(28px);
+  text-align: center;
+  float:right;
+  margin: 15px 0 0 0;
+  width: 110px;
+  box-shadow: 0 0 10px #888;
+  border: 1px solid #141414;
+  transition-duration: .2s;
+  @include gradient(#f09b31, #f3293f);
+  @include border-radius(5px);
   &:hover {
-    background: #3cb0fd;
+    transform:scale(1.05,1.05);
+    box-shadow: 0 0 20px #888;
     text-decoration: none;
-    @include gradient(#3cb0fd, #3498db);
   }
   &:active {
-    background: #3cb0fd;
-    text-decoration: none;
-    @include gradient(#fff, #000);
+
   }
 }
 
 //====================================== style ==========================================//
 
-.center {
-  width: 100px;
-  line-height:30px;
-  text-align: center;
-  @include gradient(#3498db, #2980b9);
-  @include center(10px, 10px);
-  @include border-radius(10px);
-}
-
-.button{
-  @include button();
-  @include center(10px,10px);
-}
-
-p{
-  height: 100px;
-  width:600px;
-  color:#f0f0f0;
-  text-align: center;
-  padding: 40px;
-  @include center(25px,25px);
-  @include gradient(rgba(0,0,0,1),rgba(0,0,0,.2));
-  @include font(Lucida Console,25px,italic);
-  @include border-radius(10px);
-  @include mobile{
-    width:200px;
-    padding: 10px;
-  }
-}
+//.center {
+//  width: 100px;
+//  line-height:30px;
+//  text-align: center;
+//  @include gradient(#3498db, #2980b9);
+//  @include center(10px, 10px);
+//  @include border-radius(10px);
+//}
+//
+//.button{
+//  @include button();
+//  @include center(10px,10px);
+//}
+//
+//p{
+//  height: 100px;
+//  width:600px;
+//  color:#f0f0f0;
+//  text-align: center;
+//  padding: 40px;
+//  @include center(25px,25px);
+//  @include gradient(rgba(0,0,0,1),rgba(0,0,0,.2));
+//  @include font(Lucida Console,25px,italic);
+//  @include border-radius(10px);
+//  @include mobile{
+//    width:200px;
+//    padding: 10px;
+//  }
+//}

@@ -11,6 +11,7 @@ permalink: /locations/
 1610 Town Center Drive
 Lakeland, FL 33803
 </p>
+<p>tel: 863-686-3730</p>
 
 
 
@@ -46,7 +47,7 @@ Lakeland, FL 33803
 421 N.Alafaya Trail
 Orlando, FL 32828
 </p>
-
+<p>tel: 407-249-0131</p>
 
 <table class="tg">
   <tr>
@@ -77,7 +78,7 @@ Orlando, FL 32828
 510 N. Orlando Ave Site 103
 Winter Park, FL 32789
 </p>
-
+<p>tel: 407-628-5333</p>
 
 <table class="tg">
   <tr>
