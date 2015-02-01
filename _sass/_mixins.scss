@@ -1,0 +1,108 @@
+//====================================== mixins ========================================//
+
+
+//======== media queries ===========//
+
+@mixin desktop {
+  @media (min-width: 960px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (min-width: 300px) and (max-width: 959px) {
+    @content;
+  }
+}
+
+
+//============= font ===============//
+
+@mixin font($family,$size,$style){
+  font-family: $family;
+  font-size: $size;
+  font-style: $style;
+}
+
+
+//============ radius ==============//
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+
+//============ center ==============//
+
+@mixin center($top,$bottom) {
+  margin:$top auto $bottom;
+}
+
+
+//============ gradient ============//
+
+@mixin gradient($top, $bottom) {
+  background: -webkit-gradient(linear, left top, left bottom, from($top), to($bottom));
+  background: -moz-linear-gradient(top, $top, $bottom);
+  background: -ms-linear-gradient(top, $top, $bottom);
+  background: -o-linear-gradient(to bottom, $top, $bottom);
+}
+
+
+//============ button ==============//
+
+@mixin button() {
+  background: #3498db;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: block;
+  @include gradient(#3498db, #2980b9);
+  @include border-radius(28px);
+  &:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+    @include gradient(#3cb0fd, #3498db);
+  }
+  &:active {
+    background: #3cb0fd;
+    text-decoration: none;
+    @include gradient(#fff, #000);
+  }
+}
+
+//====================================== style ==========================================//
+
+.center {
+  width: 100px;
+  line-height:30px;
+  text-align: center;
+  @include gradient(#3498db, #2980b9);
+  @include center(10px, 10px);
+  @include border-radius(10px);
+}
+
+.button{
+  @include button();
+  @include center(10px,10px);
+}
+
+p{
+  height: 100px;
+  width:600px;
+  color:#f0f0f0;
+  text-align: center;
+  padding: 40px;
+  @include center(25px,25px);
+  @include gradient(rgba(0,0,0,1),rgba(0,0,0,.2));
+  @include font(Lucida Console,25px,italic);
+  @include border-radius(10px);
+  @include mobile{
+    width:200px;
+    padding: 10px;
+  }
+}
